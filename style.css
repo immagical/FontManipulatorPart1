@@ -1,0 +1,40 @@
+h1 {
+    padding: 5px; 
+    margin-top: 0;
+    font-variant: small-caps;
+    background-color: #659DAE!important;
+    box-shadow: #557767 10px 10px 10px;
+}
+.note {
+    font-variant: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #C8EFEB;
+    color: #659DAE; 
+    padding: 5px;
+}
+body {
+    background-color: #F9EEC8;
+}
+#footer {
+    background-color: #FCB0B8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #B7607D;  
+    box-shadow: inset 5px 5px 20px #8D3F59;
+    font-variant: small-caps;
+}
+canvas {
+    animation: border 3s infinite;
+    background-color: #262640; 
+    border-radius: 20px;
+    margin-top: 200px;
+
+}
+@keyframes border {
+    0%{border: #C0728C 10px solid;}
+    50%{border: #88AA9A 10px solid;}
+    100%{border: #C0728C 10px solid;}
+}
